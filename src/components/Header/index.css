@@ -1,0 +1,24 @@
+.wrapper {
+  z-index: 99;
+  transform: none;
+  position: sticky;
+  top: 0;
+  transition: all 300ms ease;
+}
+.wrapper .container {
+  position: relative;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.wrapper .container .name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.wrapper .container .menu {
+  text-transform: uppercase;
+  font-size: 1rem;
+  list-style: none;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
