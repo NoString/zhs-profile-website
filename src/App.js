@@ -1,9 +1,10 @@
-import './App.css';
+import './App.less';
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      Hello blog
+    <div className={'bg-primary container'}>
+      <Header/>
     </div>
   );
 }
