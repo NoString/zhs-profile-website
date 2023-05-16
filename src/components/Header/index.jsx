@@ -37,7 +37,7 @@ export default () =>{
                             <BiPhoneCall size={'40px'}/>
                         </li>
                     </ul>
-                    <div className="mianIcon"
+                    <div className="mainIcon"
                         onClick={()=>setMenuOpened( prev => !prev)}>
                         <BiMenuAltRight size={30}/>
                     </div>
