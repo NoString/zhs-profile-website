@@ -6,7 +6,7 @@ import {motion} from "framer-motion";
 import {getMenuStyles, headerVariants} from "../../utils/motion";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
 export default () =>{
-    const [menuOpened, setMenuOpened] = useState(true);
+    const [menuOpened, setMenuOpened] = useState(false);
     const headerShadow = useHeaderShadow()
 
     return(
