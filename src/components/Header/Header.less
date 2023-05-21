@@ -1,10 +1,10 @@
 @import "../../index.less";
 
-.wrapper {
+.headerWrapper {
 
   //z-index 属性指定一个元素的堆叠顺序。
   //拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。
-  z-index: 99;
+  z-index: 10;
 
   //元素旋转
   transform: none;
@@ -35,6 +35,10 @@
     }
 
     .name {
+      //@media(max-width: @sm),
+      //(max-width: @md){
+      //  visibility: hidden;
+      //}
       font-size: 1.5rem;
       font-weight: 500;
     }

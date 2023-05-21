@@ -1,8 +1,9 @@
 @import "../../index";
 
-.wrapper {
+
+.profileWrapper {
   overflow: hidden;
-  z-index: 0;
+  z-index: auto;
   .container {
     position: relative;
 
@@ -52,7 +53,7 @@
     }
 
     .lowerElements {
-      @media(max-width: @sm),(max-width: @md){
+      @media (max-width: @sm),(max-width: @md) {
         margin-top: 4rem;
         gap: 1rem;
         justify-content: center;
@@ -80,7 +81,7 @@
         align-items: center;
 
         img {
-          @media(max-width: @sm){
+          @media (max-width: @sm) {
             width: 1rem;
 
           }

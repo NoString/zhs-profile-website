@@ -1,5 +1,5 @@
 import React, {Fragment, useState} from "react";
-import './index.less'
+import './Header.less'
 import {BiMenuAltRight, BiPhoneCall} from "react-icons/bi";
 // npm install framer-motion
 import {motion} from "framer-motion";
@@ -17,7 +17,7 @@ export default () =>{
                 whileInView="show"
                 variants={headerVariants}
                 viewport={{once:false,amount:0.25}}
-                className="paddings wrapper"
+                className="paddings headerWrapper bg-primary"
                 style={{boxShadow:headerShadow}}
             >
 

@@ -121,92 +121,60 @@
   top: -100px;
   visibility: hidden;
 }
-.wrapper {
-  overflow: hidden;
-  z-index: 0;
+.experienceWrapper {
+  background-color: white;
 }
-.wrapper .container {
-  position: relative;
-}
-.wrapper .container .upperElements {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.experienceWrapper .container {
+  align-items: flex-start;
+  gap: 2rem;
   flex-wrap: wrap;
 }
-@media (max-width: 640px) {
-  .wrapper .container .upperElements {
-    justify-content: center;
-    text-align: center;
-    gap: 2rem;
-  }
+.experienceWrapper .container > div {
+  flex: 1;
 }
-.wrapper .container .person {
-  position: absolute;
-  bottom: -2rem;
-  margin: auto;
-  background-image: url("../../../public/img/splash.png");
-  background-repeat: no-repeat;
-  background-size: 23rem;
-  left: 33%;
-}
-@media (max-width: 640px) {
-  .wrapper .container .person {
-    position: relative;
-    left: 0;
-    background-size: 23rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position: bottom;
-  }
-}
-.wrapper .container .email {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  color: orange;
-}
-@media (max-width: 640px) {
-  .wrapper .container .email {
-    position: relative;
-    display: none;
-  }
-}
-.wrapper .container .lowerElements {
-  margin-top: 12rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-@media (max-width: 640px), (max-width: 768px) {
-  .wrapper .container .lowerElements {
-    margin-top: 4rem;
-    gap: 1rem;
-    justify-content: center;
-  }
-}
-.wrapper .container .lowerElements .experience {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-.wrapper .container .lowerElements .experience > :nth-child(2) {
-  line-height: 25px;
-}
-.wrapper .container .lowerElements .certificate {
+.experienceWrapper .container .leftSide {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 2rem;
 }
-.wrapper .container .lowerElements .certificate img {
-  margin-bottom: 1rem;
-  width: 3rem;
+.experienceWrapper .container .leftSide .exp {
+  display: flex;
+  align-items: center;
+  border: 1px solid #286F6C;
+  border-radius: 20px;
+  padding: 1.5rem;
+  gap: 2rem;
+  transition: all 200ms ease-out;
+}
+.experienceWrapper .container .leftSide .exp:hover {
+  cursor: pointer;
+  box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.04);
+}
+.experienceWrapper .container .leftSide .exp > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.experienceWrapper .container .leftSide .exp > :nth-child(2) > :nth-child(1) {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.experienceWrapper .container .rightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 @media (max-width: 640px) {
-  .wrapper .container .lowerElements .certificate img {
-    width: 1rem;
+  .experienceWrapper .container .rightSide {
+    text-align: center;
   }
 }
-/*# sourceMappingURL=index.css.map */
+.experienceWrapper .container .rightSide .stats {
+  justify-content: flex-start;
+  gap: 4rem;
+}
+.experienceWrapper .container .rightSide .stats .stat {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/*# sourceMappingURL=Experience.css.map */

@@ -1,12 +1,12 @@
 import React, {Fragment} from "react";
-import './index.less'
+import './Profile.less'
 import {motion} from "framer-motion";
 import {fadeIn, slideIn, staggerContainer} from "../../utils/motion";
 
 export default () => {
     return (
         <Fragment>
-            <section className={'paddings wrapper'}>
+            <section className={'paddings profileWrapper'}>
                 <motion.div
                     variants={staggerContainer}
                     initial={"hidden"}
