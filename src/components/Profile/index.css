@@ -154,7 +154,7 @@
   .wrapper .container .person {
     position: relative;
     left: 0;
-    background-size: 20rem;
+    background-size: 23rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,6 +180,13 @@
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 640px), (max-width: 768px) {
+  .wrapper .container .lowerElements {
+    margin-top: 4rem;
+    gap: 1rem;
+    justify-content: center;
+  }
+}
 .wrapper .container .lowerElements .experience {
   display: flex;
   align-items: center;
@@ -196,5 +203,10 @@
 .wrapper .container .lowerElements .certificate img {
   margin-bottom: 1rem;
   width: 3rem;
+}
+@media (max-width: 640px) {
+  .wrapper .container .lowerElements .certificate img {
+    width: 1rem;
+  }
 }
 /*# sourceMappingURL=index.css.map */

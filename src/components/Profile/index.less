@@ -23,11 +23,12 @@
       @media (max-width: @sm) {
         position: relative;
         left: 0;
-        background-size: 20rem;
+        background-size: 23rem;
         display: flex;
         align-items: center;
         justify-content: center;
         background-position: bottom;
+
       }
       position: absolute;
       bottom: -2rem;
@@ -51,6 +52,11 @@
     }
 
     .lowerElements {
+      @media(max-width: @sm),(max-width: @md){
+        margin-top: 4rem;
+        gap: 1rem;
+        justify-content: center;
+      }
       margin-top: 12rem;
       display: flex;
       flex-wrap: wrap;
@@ -74,6 +80,10 @@
         align-items: center;
 
         img {
+          @media(max-width: @sm){
+            width: 1rem;
+
+          }
           margin-bottom: 1rem;
           width: 3rem;
         }
