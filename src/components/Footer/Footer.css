@@ -1,0 +1,54 @@
+.footerWrapper {
+  background: white;
+}
+.footerWrapper .container {
+  gap: 2rem;
+}
+@media (max-width: 640px) {
+  .footerWrapper .container {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+}
+.footerWrapper .container .left {
+  flex: 3;
+}
+.footerWrapper .container .left > * {
+  display: block;
+}
+.footerWrapper .container .left > :nth-child(2) {
+  margin-top: 3rem;
+}
+.footerWrapper .container .left > :nth-child(2) a {
+  text-decoration: underline;
+  color: orange;
+}
+.footerWrapper .container .right {
+  flex: 1;
+}
+.footerWrapper .container .right .info {
+  margin-bottom: 1rem;
+}
+.footerWrapper .container .right .info > * {
+  display: block;
+}
+@media (max-width: 640px) {
+  .footerWrapper .container .right .menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.footerWrapper .container .right .menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+}
+.footerWrapper .container .right .menu ul li {
+  cursor: pointer;
+}
+.footerWrapper .container .right .menu ul:hover {
+  color: #286F6C;
+}
+/*# sourceMappingURL=Footer.css.map */

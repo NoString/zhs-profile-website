@@ -12,6 +12,7 @@ export default () => {
                 whileInView={"show"}
                 viewport={{once:false,amount:0.25}}
                 className="portfolioWrapper paddings">
+                <a className="anchor" id="portfolio"></a>
                 <div className="container innerWidth flexCenter">
                     <div className="flexCenter heading">
                         <div>

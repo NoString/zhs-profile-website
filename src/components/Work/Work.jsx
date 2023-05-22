@@ -14,6 +14,7 @@ export default () => {
                 viewport={{once: false, amount: 0.25}}
                 className={'workWrapper'}
             >
+                <a className="anchor" id="work"></a>
                 <div className={'container flexCenter innerWidth'}>
                     <span className={'primaryText yPaddings'}>
                         My work experience

@@ -1,0 +1,62 @@
+.peopleWrapper .container .heading {
+  flex-direction: column;
+}
+.peopleWrapper .container .heading p {
+  line-height: 2rem;
+}
+.peopleWrapper .container .comments .slider .slick-list {
+  margin: 0 -7px;
+  box-sizing: initial;
+  padding: 80px 0px;
+  overflow-y: visible;
+}
+.peopleWrapper .container .comments .slider .slick-list .slick-slide > div {
+  padding: 0 20px;
+}
+@media (min-width: 1024px) {
+  .peopleWrapper .container .comments .slider .slick-list .slick-slide.slick-active.slick-current + .slick-slide {
+    transition: all 1000ms ease-out;
+    scale: 1.1;
+    transform: translateY(-30px);
+  }
+}
+.peopleWrapper .container .comments .comment {
+  box-shadow: rgba(0, 0, 0, 0.05) -3px 11px 13px 0px;
+  padding: 2rem;
+  display: flex !important;
+  flex-direction: column;
+  gap: 1rem;
+  background: white;
+  border-radius: 20px;
+}
+.peopleWrapper .container .comments .comment img {
+  margin: auto;
+  border-radius: 100%;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  top: -1.8rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.08));
+}
+.peopleWrapper .container .comments .comment p {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+.peopleWrapper .container .comments .comment .line {
+  width: 100%;
+  border: 0.2px solid #eaeaea;
+}
+.peopleWrapper .container .comments .comment .bio > * {
+  display: block;
+  text-align: center;
+}
+.peopleWrapper .container .comments .comment .bio > :nth-child(1) {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.peopleWrapper .container .comments .comment .bio > :nth-child(2) {
+  font-size: 0.7rem;
+  color: #acacac;
+}
+/*# sourceMappingURL=People.css.map */

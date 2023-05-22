@@ -4,6 +4,8 @@ import Profile from "./components/Profile/Profile";
 import Experience from "./components/Experience/Experience";
 import Work from "./components/Work/Work";
 import Portfolio from "./components/Portfolio/Portfolio";
+import People from "./components/People/People";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
             <Experience/>
             <Work/>
             <Portfolio/>
+            <People/>
+            <Footer/>
         </div>
     );
 }
