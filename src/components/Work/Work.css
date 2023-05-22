@@ -41,7 +41,7 @@
 }
 .workWrapper .container .experience .progressbar .line > div {
   flex: 1;
-  margin-top: 8.5rem;
+  margin-top: 5rem;
   z-index: 2;
   position: relative;
   right: 0.5rem;

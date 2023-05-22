@@ -11,7 +11,7 @@ export default () => {
                 variants={staggerChildren}
                 initial={'hidden'}
                 whileInView={'show'}
-                viewPort={{once: false, amount: 0.25}}
+                viewport={{once: false, amount: 0.25}}
                 className={'workWrapper'}
             >
                 <div className={'container flexCenter innerWidth'}>

@@ -1,0 +1,38 @@
+.portfolioWrapper {
+  background: white;
+  overflow: hidden;
+}
+.portfolioWrapper .container {
+  flex-direction: column;
+  gap: 2rem;
+}
+.portfolioWrapper .container .heading {
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.portfolioWrapper .container .heading > :nth-child(2) {
+  text-decoration: underline;
+  color: orange;
+  cursor: pointer;
+}
+.portfolioWrapper .container .showCase {
+  width: 100%;
+  gap: 1.5rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portfolioWrapper .container .showCase > img {
+  border-radius: 20px;
+  max-width: 25rem;
+  max-height: 18rem;
+  box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .portfolioWrapper .container .showCase > img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Portfolio.css.map */

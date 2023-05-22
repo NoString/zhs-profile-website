@@ -10,7 +10,7 @@ export default () => {
                 variants={staggerContainer}
                 initial={'hidden'}
                 whileInView={'show'}
-                viewPort={{once:false,amount:0.25}}
+                viewport={{once:false,amount:0.25}}
 
                 className={'experienceWrapper'}>
                 <div className="paddings yPaddings flexCenter innerWidth container">
