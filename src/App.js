@@ -2,6 +2,7 @@ import './App.less';
 import Header from "./components/Header/Header";
 import Profile from "./components/Profile/Profile";
 import Experience from "./components/Experience/Experience";
+import Work from "./components/Work/Work";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Header/>
             <Profile/>
             <Experience/>
+            <Work/>
         </div>
     );
 }
